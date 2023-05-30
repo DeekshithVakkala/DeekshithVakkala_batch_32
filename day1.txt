@@ -1,0 +1,13 @@
+<Deek html>
+<html>
+    <head Style="Background-color:Blue">
+</head>
+<body>
+    
+<h1 style="color:green">Deekshith Vakkala </h1>
+<p style="color:green">Enter your last name:Vakkala</p>
+<p style="color:green">Enter your first name:Deekshith</p>
+<p style="color:green">Gender:male</p>
+<p style="color:green">University:Tamuk</p>
+</body>
+</html> 
