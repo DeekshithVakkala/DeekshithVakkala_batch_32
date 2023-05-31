@@ -1,0 +1,47 @@
+<html>
+
+ <h1>Deekshith Vakkala</h1>
+
+    <img scr="passphoto.jepg" alt="Deekshith">
+
+<body>
+    <style> 
+
+        .avatar {
+            
+           width : 250 px;
+            height: 250 px; 
+            border-radius: 50%;
+        }
+
+     </style>
+
+
+<script>
+    
+    var Profile = {
+    FirstName: "Deekshith",
+    LastName: "Vakkala",
+    Gender: "Male",
+    DOB: "08/30/1996",
+    State: "Texas",
+    email: "Deekshith.vakkala7@gmail.com",
+    PhoneNo: "940-290-1330",
+    hobbies: ["music", "Cooking", "sports"] 
+    };
+    
+    console.log(profile.hobbies);
+    function DisplayLastHobbie() {
+    
+        var lasthobbie = profile.hobbies[2] ;
+    
+    }
+    
+    </script>
+
+
+    
+   
+
+</body>
+</html>
