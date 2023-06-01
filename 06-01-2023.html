@@ -3,7 +3,7 @@
 <script>
     let Amount = 100;
     let sendAmount ;
-    var env='Dev';
+    var env='Test';
 
 
     if (env == 'Dev') {
@@ -11,14 +11,14 @@
     
     }
 
-    else if(env='Test'){
+    else if(env=='Test'){
         sendAmount = Amount + (Amount*20/100);
     }
 
-    else if(env='stage'){
+    else if(env=='stage'){
         sendAmount = Amount + (Amount*30/100);
     }
-     else if(env='prod'){
+     else if(env=='prod'){
         sendAmount = Amount + (Amount*5/100);
 
      }
