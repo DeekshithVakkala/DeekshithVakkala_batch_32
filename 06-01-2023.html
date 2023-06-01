@@ -1,0 +1,43 @@
+<html>
+    
+<script>
+    let Amount = 100;
+    let sendAmount ;
+    var env='Dev';
+
+
+    if (env == 'Dev') {
+    sendAmount = Amount + (Amount*10/100);
+    
+    }
+
+    else if(env='Test'){
+        sendAmount = Amount + (Amount*20/100);
+    }
+
+    else if(env='stage'){
+        sendAmount = Amount + (Amount*30/100);
+    }
+     else if(env='prod'){
+        sendAmount = Amount + (Amount*5/100);
+
+     }
+     
+        console.log('sendAmount'+ sendAmount );
+     
+
+       </script>
+    <body>
+        <p>Amount</p>
+        <p id="sam"> </p>
+        <script>
+            document.getElementById("sam").innerHTML = " " + sendAmount ;
+            </script>
+
+                  </body>
+               </html>
+
+    
+
+
+
