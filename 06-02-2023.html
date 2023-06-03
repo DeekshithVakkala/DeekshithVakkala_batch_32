@@ -1,0 +1,24 @@
+    <html>
+        <h>Hobbies</h>
+        <script>
+            let hobbies = ['cooking', 'playing', 'drive', 'reading'];
+    
+            function getHobbies() {
+                return hobbies;
+            }
+    
+            function addHobbies(newHobbies) {
+                hobbies.push(newHobbies);
+                console.log(hobbies);
+            }
+    
+            function deleteHobbies() {
+                console.log(hobbies);
+            }
+            
+            console.log("Initial hobbies:", getHobbies());
+            addHobbies('swimming');
+            deleteHobbies();
+        </script>
+    </html>
+    
