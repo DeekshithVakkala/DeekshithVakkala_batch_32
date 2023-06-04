@@ -4,7 +4,8 @@
             let hobbies = ['cooking', 'playing', 'drive', 'reading'];
     
             function getHobbies() {
-                return hobbies;
+               // return hobbies;
+                console.log("Initial hobbies:", hobbies);
             }
     
             function addHobbies(newHobbies) {
@@ -12,13 +13,24 @@
                 console.log(hobbies);
             }
     
-            function deleteHobbies() {
-                console.log(hobbies);
+        
+            function deleteHobbies(hobbiesToDelete) {
+                for(i=0; i<hobbies.length; i++) {
+                    if(hobbies[i]=hobbiesToDelete){
+                        hobbies.splice(i,1);
+                        break;
+ 
+
+                    }
+
+                }
+              //  console.log(hobbies);
+               // hobbies.splice();
             }
             
-            console.log("Initial hobbies:", getHobbies());
+            getHobbies();
             addHobbies('swimming');
-            deleteHobbies();
+            deleteHobbies('drive');
         </script>
     </html>
     
